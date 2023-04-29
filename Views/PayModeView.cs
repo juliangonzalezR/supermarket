@@ -24,9 +24,10 @@ namespace Supermarket_mvp.Views
             tabControl1.TabPages.Remove(tabPagePayModeDetail);
         }
 
-        public string PayModeId { 
+        public string PayModeId
+        {
             get { return TxtPayModeId.Text; }
-            set {TxtPayModeId.Text = value;} 
+            set { TxtPayModeId.Text = value; }
         }
         public string PayModeName
         {
@@ -82,6 +83,26 @@ namespace Supermarket_mvp.Views
                     SearchEvent?.Invoke(this, EventArgs.Empty);
                 }
             };
+        }
+
+        private static PayModeView instance;
+
+        public static PayModeView GetInstance()
+        {
+            if (instance == null || instance.IsDisposed)
+            {
+                instance = new PayModeView();
+            }
+            else
+            {
+                if (instance.WindowState == FormWindowState.Maximized)
+                {
+                    instance.WindowState = FormWindowState.Normal;
+                }
+                instance.BringToFront();
+            }
+
+            return instance;
         }
     }
 }
