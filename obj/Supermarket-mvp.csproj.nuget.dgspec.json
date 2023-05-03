@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Laravel-9.0-projects\\Supermarket-mvp\\Supermarket-mvp.csproj": {}
+    "C:\\Users\\Julian GR\\Source\\Repos\\Supermarker\\Supermarket-mvp.csproj": {}
   },
   "projects": {
-    "C:\\Laravel-9.0-projects\\Supermarket-mvp\\Supermarket-mvp.csproj": {
+    "C:\\Users\\Julian GR\\Source\\Repos\\Supermarker\\Supermarket-mvp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Laravel-9.0-projects\\Supermarket-mvp\\Supermarket-mvp.csproj",
+        "projectUniqueName": "C:\\Users\\Julian GR\\Source\\Repos\\Supermarker\\Supermarket-mvp.csproj",
         "projectName": "Supermarket-mvp",
-        "projectPath": "C:\\Laravel-9.0-projects\\Supermarket-mvp\\Supermarket-mvp.csproj",
-        "packagesPath": "C:\\Users\\Santiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Laravel-9.0-projects\\Supermarket-mvp\\obj\\",
+        "projectPath": "C:\\Users\\Julian GR\\Source\\Repos\\Supermarker\\Supermarket-mvp.csproj",
+        "packagesPath": "C:\\Users\\Julian GR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julian GR\\Source\\Repos\\Supermarker\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Santiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Julian GR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
